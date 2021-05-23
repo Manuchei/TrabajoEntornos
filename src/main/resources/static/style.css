@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.frase{
+    width: 10%;
+}
+
+.traduccion{
+    width: 2cm;
+    font-weight: bold;
+} 

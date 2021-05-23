@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css"/>
+    <title>Traduccion</title>
+</head>
+<body>
+
+    <h1>Traductor</h1>
+    <div class="container">
+        <p class="frase">Frase original: <span th:text=${frase}></span>
+            <br/>
+
+        Traducción: <span class="translatedText" th:text=${translatedText}></span> </p>
+            <br/>
+
+
+    </div>
+</body>
+</html> 
